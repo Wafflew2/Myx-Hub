@@ -1,5 +1,11 @@
-
+local function Reanimate()
 --[[ 
+Update logs: [OLD ONE WON'T BE HERE!]
+V1.1
+Made it an function
+Magically made the netless jitterless and has 0 falling (rarely depend on your performance)
+]]
+print[[ 
                  
                                                   // [FE] MYXS REANIM \\
 
@@ -9,7 +15,7 @@
 
 game.Players:Chat("-gh 11159410305, 11263254795, 13012415545")
 game.Players.LocalPlayer.Character.Animate:Destroy()
-wait(1)
+wait(3)
 local v3_net, v3_808 = Vector3.new(0, 25.1, 0), Vector3.new(8, 0, 8)
 		local function getNetlessVelocity(realPartVelocity)
 			local mag = realPartVelocity.Magnitude
@@ -43,7 +49,7 @@ local method = 3 --reanimation method
 --3 - limbs + breakJoints after [loadtime] seconds
 --4 - remove humanoid + breakJoints
 --5 - remove humanoid + limbs
-local alignmode = 1 --AlignPosition mode
+local alignmode = 2 --AlignPosition mode
 --modes:
 --1 - AlignPosition rigidity enabled true
 --2 - 2 AlignPositions rigidity enabled both true and false
@@ -821,12 +827,6 @@ local function gp(parent, name, className)
     end
     return nil
 end
-if removetorsomesh then
-game.Players.LocalPlayer.Character.Model.GreyArgyleCropVest.Handle.BrickColor = BrickColor.new("Really black")
-else
-game.Players.LocalPlayer.Character.Model.GreyArgyleCropVest.Handle.SpecialMesh.TextureId = ""
-game.Players.LocalPlayer.Character.Model.GreyArgyleCropVest.Handle.BrickColor = BrickColor.new("Really black")
-end
 
 local hat2 = gp(cplayer, "GreyArgyleCropVest", "Accessory")
 local handle2 = gp(hat2, "Handle", "BasePart")
@@ -862,5 +862,7 @@ local att2 = gp(handle2, "att1_Handle", "Attachment")
 att2.Parent = cplayer["Left Leg"]
 att2.Position = Vector3.new(0, -0, 0) 
 att2.Rotation = Vector3.new(90, 90, 0) 
- --rea nim
- wait(5)
+ --end of myx reanim1!1!1!
+end
+Reanimate()
+wait(5)
