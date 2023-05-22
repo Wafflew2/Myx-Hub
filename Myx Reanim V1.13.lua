@@ -4,17 +4,12 @@ Update logs: [OLD ONE WON'T BE HERE!]
 V1.1
 Made it an function
 Magically made the netless jitterless and has 0 falling (rarely depend on your performance)
+V.13
+Found an white legs that has no smiley face took me a long decade to align smh
+No more body leaving like your dad
 ]]
-print[[ 
-                 
-                                                  // [FE] MYXS REANIM \\
-
-                        --{[░▒▓█ IT SPRIVATE STUFF1!1! IF YOU HAVE IT YOUR OFFICIAL COOL1!1!1 █▓▒░}]--
-
-]]
-
-game.Players:Chat("-gh 11159410305, 11263254795, 13012415545")
-game.Players.LocalPlayer.Character.Animate:Destroy()
+game.Players:Chat("-gh 5063578607, 11159410305, 12483700909")
+--game.Players.LocalPlayer.Character.Animate:Destroy()
 wait(3)
 local v3_net, v3_808 = Vector3.new(0, 25.1, 0), Vector3.new(8, 0, 8)
 		local function getNetlessVelocity(realPartVelocity)
@@ -828,7 +823,7 @@ local function gp(parent, name, className)
     return nil
 end
 
-local hat2 = gp(cplayer, "GreyArgyleCropVest", "Accessory")
+local hat2 = gp(cplayer, "Puffer Vest", "Accessory")
 local handle2 = gp(hat2, "Handle", "BasePart")
 local att2 = gp(handle2, "att1_Handle", "Attachment")
 att2.Parent = cplayer["Torso"]
@@ -860,8 +855,15 @@ local hat2 = gp(cplayer, "MeshPartAccessory", "Accessory")
 local handle2 = gp(hat2, "Handle", "BasePart")
 local att2 = gp(handle2, "att1_Handle", "Attachment")
 att2.Parent = cplayer["Left Leg"]
-att2.Position = Vector3.new(0, -0, 0) 
-att2.Rotation = Vector3.new(90, 90, 0) 
+att2.Position = Vector3.new(0, -0, -0) 
+att2.Rotation = v3(420, 180, 40) --72.5, 69, 25
+
+local hat2 = gp(cplayer, "Sniper", "Accessory")
+local handle2 = gp(hat2, "Handle", "BasePart")
+local att2 = gp(handle2, "att1_Handle", "Attachment")
+att2.Parent = cplayer["Right Arm"]
+att2.Position = Vector3.new(0, -2.4, -.7) 
+att2.Rotation = Vector3.new(-90, 90, 0)
  --end of myx reanim1!1!1!
 end
 Reanimate()
