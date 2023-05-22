@@ -858,12 +858,6 @@ att2.Parent = cplayer["Left Leg"]
 att2.Position = Vector3.new(0, -0, -0) 
 att2.Rotation = v3(419, 177, 33)
 
-local hat2 = gp(cplayer, "Sniper", "Accessory")
-local handle2 = gp(hat2, "Handle", "BasePart")
-local att2 = gp(handle2, "att1_Handle", "Attachment")
-att2.Parent = cplayer["Right Arm"]
-att2.Position = Vector3.new(0, -2.4, -.7) 
-att2.Rotation = Vector3.new(-90, 90, 0)
  --end of myx reanim1!1!1!
 end
 Reanimate()
