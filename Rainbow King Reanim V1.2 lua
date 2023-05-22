@@ -1,7 +1,8 @@
 local function Reanimate()
 --[[ 
 Update logs: [OLD ONE WON'T BE HERE!]
-V1: Fixed reanim leg no loadin
+V1.1: Fixed reanim leg no loadin
+V1.2: Aligned the gun
 ]]
 print[[ 
                  
