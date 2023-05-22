@@ -1,6 +1,7 @@
 local function Reanimate()
 --[[ 
 Update logs: [OLD ONE WON'T BE HERE!]
+V1: Fixed reanim leg no loadin
 ]]
 print[[ 
                  
@@ -825,7 +826,7 @@ local function gp(parent, name, className)
     return nil
 end
 
-local hat2 = gp(cplayer, "GreyArgyleCropVest", "Accessory")
+local hat2 = gp(cplayer, "Puffer Vest", "Accessory")
 local handle2 = gp(hat2, "Handle", "BasePart")
 local att2 = gp(handle2, "att1_Handle", "Attachment")
 att2.Parent = cplayer["Torso"]
