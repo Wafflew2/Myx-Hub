@@ -856,7 +856,7 @@ local handle2 = gp(hat2, "Handle", "BasePart")
 local att2 = gp(handle2, "att1_Handle", "Attachment")
 att2.Parent = cplayer["Left Leg"]
 att2.Position = Vector3.new(0, -0, -0) 
-att2.Rotation = v3(420, 180, 40) --72.5, 69, 25
+att2.Rotation = v3(419, 177, 33)
 
 local hat2 = gp(cplayer, "Sniper", "Accessory")
 local handle2 = gp(hat2, "Handle", "BasePart")
